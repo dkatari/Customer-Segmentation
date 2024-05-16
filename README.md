@@ -1,3 +1,5 @@
+<h2> Data set:- https://docs.google.com/spreadsheets/d/1-31wL1vkNU8-yxfc2ItAX6KE4Re7RuUP/edit?usp=sharing&ouid=107093923581893374366&rtpof=true&sd=true.</h2>
+
 <h2>Objective:</h2>
 <p>Segment customers based on purchasing behavior using K-Means clustering.</p>
 
