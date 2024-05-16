@@ -1,20 +1,47 @@
-Objective: Segment customers based on purchasing behavior using K-Means clustering.
-Data Source: Transaction records from an Excel file, preprocessed for missing values and outliers.
-Key Metrics:
-Recency: Days since the last purchase.
-Frequency: Number of purchases.
-Monetary: Total spending.
-Data Processing:
-Removed transactions with null Customer IDs.
-Filtered out transactions with negative quantities and prices.
-Converted invoice dates to datetime format.
-Normalization: Applied MinMaxScaler to normalize Recency, Frequency, and Monetary values.
-Optimal Clusters: Determined the optimal number of clusters (4) using the Elbow method and Silhouette scores.
-Cluster Analysis:
-Cluster 0: Best Customers - Recent, frequent, high spenders.
-Cluster 1: Big Spenders - Moderately recent, high spenders, less frequent.
-Cluster 2: Loyal Customers - Moderately recent, regular buyers with moderate spending.
-Cluster 3: Lost Cheap Customers - Least recent, infrequent, low spenders.
-Visualization: Created bar graphs to display average RFM values for each cluster.
-Segmentation Map: Labeled clusters for targeted marketing strategies.
-Output: Final segmented data ready for analysis and targeted marketing.
+<h2>Objective:</h2>
+<p>Segment customers based on purchasing behavior using K-Means clustering.</p>
+
+<h2>Data Source:</h2>
+<p>Transaction records from an Excel file, preprocessed for missing values and outliers.</p>
+
+<h2>Key Metrics:</h2>
+<ul>
+    <li><strong>Recency:</strong> Days since the last purchase.</li>
+    <li><strong>Frequency:</strong> Number of purchases.</li>
+    <li><strong>Monetary:</strong> Total spending.</li>
+</ul>
+
+<h2>Data Processing:</h2>
+<ul>
+    <li>Removed transactions with null Customer IDs.</li>
+    <li>Filtered out transactions with negative quantities and prices.</li>
+    <li>Converted invoice dates to datetime format.</li>
+</ul>
+
+<h2>Normalization:</h2>
+<p>Applied MinMaxScaler to normalize Recency, Frequency, and Monetary values.</p>
+
+<h2>Optimal Clusters:</h2>
+<p>Determined the optimal number of clusters (4) using the Elbow method and Silhouette scores.</p>
+
+<h2>Cluster Analysis:</h2>
+<ul>
+    <li><strong>Cluster 0: Best Customers</strong> - Recent, frequent, high spenders.</li>
+    <li><strong>Cluster 1: Big Spenders</strong> - Moderately recent, high spenders, less frequent.</li>
+    <li><strong>Cluster 2: Loyal Customers</strong> - Moderately recent, regular buyers with moderate spending.</li>
+    <li><strong>Cluster 3: Lost Cheap Customers</strong> - Least recent, infrequent, low spenders.</li>
+</ul>
+
+<h2>Visualization:</h2>
+<p>Created bar graphs to display average RFM values for each cluster.</p>
+
+<h2>Segmentation Map:</h2>
+<p>Labeled clusters for targeted marketing strategies.</p>
+
+<h2>Output:</h2>
+<p>Final segmented data ready for analysis and targeted marketing.</p>
+
+
+
+
+
